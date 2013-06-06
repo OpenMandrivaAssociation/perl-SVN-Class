@@ -1,15 +1,14 @@
 %define upstream_name    SVN-Class
-%define upstream_version 0.16
-
+%define upstream_version 0.17
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.17
+Release:	1
 
 Summary:	Represents the repository of a Subversion workspace
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/SVN/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/SVN/SVN-Class-0.17.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Data::Dump)
@@ -62,4 +61,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Tue Oct 26 2010 Buchan Milne <bgmilne@mandriva.org> 0.160.0-1mdv2011.0
 + Revision: 589497
 - import perl-SVN-Class
+
 
