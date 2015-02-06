@@ -2,7 +2,7 @@
 %define upstream_version 0.17
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.17
-Release:	2
+Release:	3
 
 Summary:	Represents the repository of a Subversion workspace
 License:	GPL+ or Artistic
