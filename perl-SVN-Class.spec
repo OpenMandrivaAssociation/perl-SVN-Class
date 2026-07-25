@@ -1,14 +1,14 @@
 %define upstream_name    SVN-Class
-%define upstream_version 0.17
+%define upstream_version 0.18
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.17
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Represents the repository of a Subversion workspace
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/SVN/SVN-Class-0.17.tar.gz
+Url:		https://github.com/karpet/svn-class-perl
+Source0:	https://cpan.metacpan.org/authors/id/K/KA/KARMAN/SVN-Class-0.18.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
